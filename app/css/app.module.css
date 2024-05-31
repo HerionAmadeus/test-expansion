@@ -1,0 +1,58 @@
+/* Style du conteneur principal */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 80vh; 
+  }
+
+  
+  /* Style de la section de texte */
+  .textSection {
+    flex: 0 1 30%;
+    padding: 20px;
+    color: #333;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  /* Style de la section d'animation */
+  .animationSection {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Style de l'animation */
+  .animation {
+    max-width: 100%;
+    height: auto;
+    /* Ajoutez des styles d'animation si nécessaire */
+  }
+
+  .orange {
+    color:#e75336
+  }
+
+  .textTitle {
+    font-weight: 500;
+    font-size: 50px;
+  }
+
+  .appointmentButton {
+    background-color: #e75336;
+    color: white;
+    border: none;
+    font-size: 14px;
+    border-radius: 20px; /* Coins arrondis */
+    padding: 15px 25px; /* Espacement interne */
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .appointmentButton:hover {
+    background-color: darkorange;
+  }

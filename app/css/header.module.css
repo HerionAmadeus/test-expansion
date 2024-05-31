@@ -1,0 +1,59 @@
+/* Style du conteneur principal du header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+/* Style du conteneur de menu */
+.menu {
+  display: flex;
+}
+
+/* Style des liens de menu */
+.menuslot {
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 14px 20px;
+  transition: background-color 0.3s, color 0.3s;
+ 
+}
+
+
+ .menuslot:hover {
+  border-bottom: 3px #e75336 solid;
+  border-radius : 3px; 
+} 
+
+/* Style du conteneur de texte Test */
+.test {
+  
+}
+/* Style du conteneur de la section droite */
+.rightSection {
+  display: flex;
+  align-items: center;
+}
+
+/* Style du conteneur de texte Test */
+.test {
+  
+  margin-right: 10px; /* Espacement entre "Test" et le bouton */
+}
+
+/* Style du bouton Prendre Rendez-vous */
+.appointmentButton {
+  background-color: #e75336;
+  color: white;
+  border: none;
+  border-radius: 20px; /* Coins arrondis */
+  padding: 10px 20px; /* Espacement interne */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.appointmentButton:hover {
+  background-color: darkorange;
+}

@@ -1,21 +1,32 @@
-.main {
+.header {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+    padding: 6rem;
+    min-height: 100vh;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
-.description {
-  display: inherit;
-  justify-content: inherit;
-  align-items: inherit;
-  font-size: 0.85rem;
-  max-width: var(--max-width);
-  width: 100%;
-  z-index: 2;
-  font-family: var(--font-mono);
+.menu {
+  display: flex;
+}
+
+.menuslot {
+  background-color: #4CAF50; /* Couleur de fond initiale */
+    color: white; /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    padding: 15px 32px; /* Espacement interne */
+    text-align: center; /* Alignement du texte */
+    text-decoration: none; /* Pas de soulignement */
+    display: inline-block; /* Affichage en ligne */
+    font-size: 16px; /* Taille de la police */
+    margin: 4px 2px; /* Marges externes */
+    cursor: pointer; /* Curseur en forme de main */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Transition pour les changements */
+
+}
+.menuslot:hover {
+  background-color: #45a049; /* Changement de la couleur de fond */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Ajout d'une ombre */
 }
 
 .description a {
